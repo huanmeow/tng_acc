@@ -16,6 +16,7 @@ class _TopUpHistoryScreenState extends State<TopUpHistoryScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: const Text('Lịch sử nạp tiền'),
       ),
       body: Consumer<TopUpHistoryProvider>(

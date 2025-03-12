@@ -18,6 +18,7 @@ class _FavoriteState extends State<Favorite> {
     final List<Product> finalList = provider.getFavorites();
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: const Text(
           "Danh sách yêu thích",
           style: TextStyle(fontWeight: FontWeight.bold),

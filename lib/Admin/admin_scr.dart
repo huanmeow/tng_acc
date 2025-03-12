@@ -19,8 +19,7 @@ class _AdminAppState extends State<AdminApp> {
     final ThemeData theme = Theme.of(context);
     return Scaffold(
       appBar: AppBar(
-        title: Text(['Trang Chủ', 'Lịch Sử', 'Quản Lí Nạp/CK', 'Tài Khoản']
-        [currentPageIndex]),
+        automaticallyImplyLeading: false,
       ),
       bottomNavigationBar: NavigationBar(
         onDestinationSelected: (int index) {
@@ -28,7 +27,7 @@ class _AdminAppState extends State<AdminApp> {
             currentPageIndex = index;
           });
         },
-        indicatorColor: Colors.yellow[200],
+        indicatorColor: Colors.red[200],
         selectedIndex: currentPageIndex,
         destinations: const <Widget>[
           NavigationDestination(

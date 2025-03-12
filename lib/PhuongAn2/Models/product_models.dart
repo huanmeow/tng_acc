@@ -160,91 +160,9 @@ final List<Product> hot = [
 ];
 final List<Product> pick = [
   Product(
-    title: "Mã số: 645804",
-    description:
-    "Tướng: 93\nTrang phục: 151\nTrạng thái SDT đổi\nRank Tinh Anh",
-    image:[
-      "images/Pick/7.jpeg",
-      "images/Pick/71.jpeg",
-      "images/Pick/72.jpeg",
-      "images/Pick/73.jpeg",
-      "images/Pick/74.jpeg",
-      "images/Pick/75.jpeg",
-      "images/Pick/76.jpeg",
-      "images/Pick/77.jpeg",
-      "images/Pick/78.jpeg",
-      "images/Pick/79.jpeg",
-      "images/Pick/710.jpeg",
-    ],
-    price: 375000,
-    category: "Liên Quân Mobile",
-  ),
-  Product(
-    title: "Mã số: 645802",
-    description:
-    "Tướng: 111\nTrang phục: 171\nTrạng thái SDT đổi\nRank Tinh Anh",
-    price: 500000,
-    image:[
-      "images/Pick/8.jpeg",
-      "images/Pick/81.jpeg",
-      "images/Pick/82.jpeg",
-      "images/Pick/83.jpeg",
-      "images/Pick/84.jpeg",
-      "images/Pick/85.jpeg",
-      "images/Pick/86.jpeg",
-      "images/Pick/87.jpeg",
-      "images/Pick/88.jpeg",
-      "images/Pick/89.jpeg",
-      "images/Pick/810.jpeg",
-    ],
-    category: "Liên Quân Mobile",
-  ),
-  Product(
-    title: "Mã số: 636801",
-    description:
-    "Tướng: 105\nTrang phục: 180\nTrạng thái SDT đổi\nRank Kim Cương",
-    image:[
-      "images/Pick/9.jpeg",
-      "images/Pick/91.jpeg",
-      "images/Pick/92.jpeg",
-      "images/Pick/93.jpeg",
-      "images/Pick/94.jpeg",
-      "images/Pick/95.jpeg",
-      "images/Pick/96.jpeg",
-      "images/Pick/97.jpeg",
-      "images/Pick/98.jpeg",
-      "images/Pick/99.jpeg",
-      "images/Pick/910.jpeg",
-    ],
-    price: 500000,
-    category: "Liên Quân Mobile",
-  ),
-  Product(
-    title: "Mã số: 645800",
-    description:
-    "Tướng: 107\nTrang phục: 173\nTrạng thái SDT đổi\nRank Tinh Anh",
-    image:[
-      "images/Pick/10.jpeg",
-      "images/Pick/101.jpeg",
-      "images/Pick/102.jpeg",
-      "images/Pick/103.jpeg",
-      "images/Pick/104.jpeg",
-      "images/Pick/105.jpeg",
-      "images/Pick/106.jpeg",
-      "images/Pick/107.jpeg",
-      "images/Pick/108.jpeg",
-      "images/Pick/109.jpeg",
-      "images/Pick/110.jpeg",
-    ],
-    price: 500000,
-    category: "Liên Quân Mobile",
-  ),
-];
-final List<Product> reg = [
-  Product(
     title: "Mã số: 657990",
     description:
-   "Reg Maloc Đại tướng robot\nTướng :8\nTrang phục :6\nTrắng thông tin",
+    "Reg Maloc Đại tướng robot\nTướng :8\nTrang phục :6\nTrắng thông tin",
     image:[
       "images/Reg/reg1.jpeg",
     ],
@@ -279,6 +197,292 @@ final List<Product> reg = [
       "images/Reg/reg4.jpeg",
     ],
     price: 100000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 977866",
+    description:
+    "Reg Vio Dj Cau Hon\nTướng :14\nTrang phục :6\nTrắng thông tin",
+    image:[
+      "images/Reg/reg5.jpeg",
+    ],
+    price: 180000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 977867",
+    description:
+    "Reg Arum Vũ khúc\nTướng :14\nTrang phục :6\nTrắng thông tin",
+    image:[
+      "images/Reg/reg6.jpeg",
+    ],
+    price: 100000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 977868",
+    description:
+    "Reg Aoi Cong Chua\nTướng :14\nTrang phục :6\nTrắng thông tin",
+    image:[
+      "images/Reg/reg7.jpeg",
+    ],
+    price: 80000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 977869",
+    description:
+    "Reg Murad Dac Di\nTướng :14\nTrang phục :6\nTrắng thông tin",
+    image:[
+      "images/Reg/reg8.jpeg",
+    ],
+    price: 90000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 977870",
+    description:
+    "Reg Gindu Tiec bai bien\nTướng :14\nTrang phục :6\nTrắng thông tin",
+    image:[
+      "images/Reg/reg9.jpeg",
+    ],
+    price: 80000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 977871",
+    description:
+    "Reg Athur Sieu Viet\nTướng :14\nTrang phục :6\nTrắng thông tin",
+    image:[
+      "images/Reg/reg10.jpeg",
+    ],
+    price: 200000,
+    category: "Liên Quân Mobile",
+  ),
+];
+final List<Product> reg = [
+  Product(
+    title: "Mã số: 657990",
+    description:
+   "50% Trên 80 Tướng\n"
+    "45% Có Sẵn 800 - 1000 Quân Huy\n"
+ " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 657991",
+    description:
+    "50% Trên 80 Tướng\n"
+        "45% Có Sẵn 800 - 1000 Quân Huy\n"
+        " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 657992",
+    description:
+    "50% Trên 80 Tướng\n"
+        "45% Có Sẵn 800 - 1000 Quân Huy\n"
+        " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 657993",
+    description:
+    "50% Trên 80 Tướng\n"
+        "45% Có Sẵn 800 - 1000 Quân Huy\n"
+        " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 657994",
+    description:
+    "50% Trên 80 Tướng\n"
+        "45% Có Sẵn 800 - 1000 Quân Huy\n"
+        " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 657995",
+    description:
+    "50% Trên 80 Tướng\n"
+        "45% Có Sẵn 800 - 1000 Quân Huy\n"
+        " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 657996",
+    description:
+    "50% Trên 80 Tướng\n"
+        "45% Có Sẵn 800 - 1000 Quân Huy\n"
+        " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 657997",
+    description:
+    "50% Trên 80 Tướng\n"
+        "45% Có Sẵn 800 - 1000 Quân Huy\n"
+        " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 657998",
+    description:
+    "50% Trên 80 Tướng\n"
+        "45% Có Sẵn 800 - 1000 Quân Huy\n"
+        " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 657999",
+    description:
+    "50% Trên 80 Tướng\n"
+        "45% Có Sẵn 800 - 1000 Quân Huy\n"
+        " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 658001",
+    description:
+    "50% Trên 80 Tướng\n"
+        "45% Có Sẵn 800 - 1000 Quân Huy\n"
+        " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 658002",
+    description:
+    "50% Trên 80 Tướng\n"
+        "45% Có Sẵn 800 - 1000 Quân Huy\n"
+        " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 658003",
+    description:
+    "50% Trên 80 Tướng\n"
+        "45% Có Sẵn 800 - 1000 Quân Huy\n"
+        " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 658004",
+    description:
+    "50% Trên 80 Tướng\n"
+        "45% Có Sẵn 800 - 1000 Quân Huy\n"
+        " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 658005",
+    description:
+    "50% Trên 80 Tướng\n"
+        "45% Có Sẵn 800 - 1000 Quân Huy\n"
+        " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 658007",
+    description:
+    "50% Trên 80 Tướng\n"
+        "45% Có Sẵn 800 - 1000 Quân Huy\n"
+        " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 658008",
+    description:
+    "50% Trên 80 Tướng\n"
+        "45% Có Sẵn 800 - 1000 Quân Huy\n"
+        " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 658009",
+    description:
+    "50% Trên 80 Tướng\n"
+        "45% Có Sẵn 800 - 1000 Quân Huy\n"
+        " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 658010",
+    description:
+    "50% Trên 80 Tướng\n"
+        "45% Có Sẵn 800 - 1000 Quân Huy\n"
+        " 35% Có Skin SS Hữu Hạn",
+    image:[
+      "images/Random/random3.png",
+    ],
+    price: 50000,
     category: "Liên Quân Mobile",
   ),
 ];
@@ -333,6 +537,205 @@ category: "Liên Quân Mobile",
     price: 150000,
     category: "Liên Quân Mobile",
   ),
+  Product(
+    title: "Mã số: 645810",
+    description:
+    "100% Từ 50 - 115 Tướng\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\nTrạng thái : TTT" ,
+    image:[
+      "images/Random/random1.png",
+    ],
+    price: 150000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 645811",
+    description:
+    "100% Từ 50 - 115 Tướng\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\nTrạng thái : TTT" ,
+    image:[
+      "images/Random/random1.png",
+    ],
+    price: 150000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 645812",
+    description:
+    "100% Từ 50 - 115 Tướng\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\nTrạng thái : TTT" ,
+    image:[
+      "images/Random/random1.png",
+    ],
+    price: 150000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 645813",
+    description:
+    "100% Từ 50 - 115 Tướng\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\nTrạng thái : TTT" ,
+    image:[
+      "images/Random/random1.png",
+    ],
+    price: 150000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 6458114",
+    description:
+    "100% Từ 50 - 115 Tướng\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\nTrạng thái : TTT" ,
+    image:[
+      "images/Random/random1.png",
+    ],
+    price: 150000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 645815",
+    description:
+    "100% Từ 50 - 115 Tướng\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\nTrạng thái : TTT" ,
+    image:[
+      "images/Random/random1.png",
+    ],
+    price: 150000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 645816",
+    description:
+    "100% Từ 50 - 115 Tướng\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\nTrạng thái : TTT" ,
+    image:[
+      "images/Random/random1.png",
+    ],
+    price: 150000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 645816",
+    description:
+    "100% Từ 50 - 115 Tướng\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\nTrạng thái : TTT" ,
+    image:[
+      "images/Random/random1.png",
+    ],
+    price: 150000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 645817",
+    description:
+    "100% Từ 50 - 115 Tướng\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\nTrạng thái : TTT" ,
+    image:[
+      "images/Random/random1.png",
+    ],
+    price: 150000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 645818",
+    description:
+    "100% Từ 50 - 115 Tướng\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\nTrạng thái : TTT" ,
+    image:[
+      "images/Random/random1.png",
+    ],
+    price: 150000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 645819",
+    description:
+    "100% Từ 50 - 115 Tướng\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\nTrạng thái : TTT" ,
+    image:[
+      "images/Random/random1.png",
+    ],
+    price: 150000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 645820",
+    description:
+    "100% Từ 50 - 115 Tướng\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\nTrạng thái : TTT" ,
+    image:[
+      "images/Random/random1.png",
+    ],
+    price: 150000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 645821",
+    description:
+    "100% Từ 50 - 115 Tướng\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\nTrạng thái : TTT" ,
+    image:[
+      "images/Random/random1.png",
+    ],
+    price: 150000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 645822",
+    description:
+    "100% Từ 50 - 115 Tướng\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\nTrạng thái : TTT" ,
+    image:[
+      "images/Random/random1.png",
+    ],
+    price: 150000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 645822",
+    description:
+    "100% Từ 50 - 115 Tướng\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\nTrạng thái : TTT" ,
+    image:[
+      "images/Random/random1.png",
+    ],
+    price: 150000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 645823",
+    description:
+    "100% Từ 50 - 115 Tướng\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\nTrạng thái : TTT" ,
+    image:[
+      "images/Random/random1.png",
+    ],
+    price: 150000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 645824",
+    description:
+    "100% Từ 50 - 115 Tướng\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\nTrạng thái : TTT" ,
+    image:[
+      "images/Random/random1.png",
+    ],
+    price: 150000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 645825",
+    description:
+    "100% Từ 50 - 115 Tướng\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\nTrạng thái : TTT" ,
+    image:[
+      "images/Random/random1.png",
+    ],
+    price: 150000,
+    category: "Liên Quân Mobile",
+  ),
 ];
 final List<Product> random2 = [
   Product(
@@ -352,7 +755,142 @@ final List<Product> random2 = [
     category: "Liên Quân Mobile",
   ),
   Product(
-    title: "Mã số: 432654",
+    title: "Mã số: 636544",
+    description:
+    "100% Từ 50 - 115 Tướng ("
+        " có tỉ lệ nổ acc có skin ss, sss lên đến 80% )\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\n"
+        "65% Acc Khủng (Trên 300 Skin)\n"
+        "50% Có Skin SSS\n\nTrạng thái : TTT"
+        "CHÚC CÁC BẠN MAY MẮN NHA!!!",
+    image:[
+      "images/Random/random2.png",
+    ],
+    price: 300000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 636545",
+    description:
+    "100% Từ 50 - 115 Tướng ("
+        " có tỉ lệ nổ acc có skin ss, sss lên đến 80% )\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\n"
+        "65% Acc Khủng (Trên 300 Skin)\n"
+        "50% Có Skin SSS\n\nTrạng thái : TTT"
+        "CHÚC CÁC BẠN MAY MẮN NHA!!!",
+    image:[
+      "images/Random/random2.png",
+    ],
+    price: 300000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 636546",
+    description:
+    "100% Từ 50 - 115 Tướng ("
+        " có tỉ lệ nổ acc có skin ss, sss lên đến 80% )\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\n"
+        "65% Acc Khủng (Trên 300 Skin)\n"
+        "50% Có Skin SSS\n\nTrạng thái : TTT"
+        "CHÚC CÁC BẠN MAY MẮN NHA!!!",
+    image:[
+      "images/Random/random2.png",
+    ],
+    price: 300000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 636547",
+    description:
+    "100% Từ 50 - 115 Tướng ("
+        " có tỉ lệ nổ acc có skin ss, sss lên đến 80% )\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\n"
+        "65% Acc Khủng (Trên 300 Skin)\n"
+        "50% Có Skin SSS\n\nTrạng thái : TTT"
+        "CHÚC CÁC BẠN MAY MẮN NHA!!!",
+    image:[
+      "images/Random/random2.png",
+    ],
+    price: 300000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 636548",
+    description:
+    "100% Từ 50 - 115 Tướng ("
+        " có tỉ lệ nổ acc có skin ss, sss lên đến 80% )\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\n"
+        "65% Acc Khủng (Trên 300 Skin)\n"
+        "50% Có Skin SSS\n\nTrạng thái : TTT"
+        "CHÚC CÁC BẠN MAY MẮN NHA!!!",
+    image:[
+      "images/Random/random2.png",
+    ],
+    price: 300000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 636549",
+    description:
+    "100% Từ 50 - 115 Tướng ("
+        " có tỉ lệ nổ acc có skin ss, sss lên đến 80% )\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\n"
+        "65% Acc Khủng (Trên 300 Skin)\n"
+        "50% Có Skin SSS\n\nTrạng thái : TTT"
+        "CHÚC CÁC BẠN MAY MẮN NHA!!!",
+    image:[
+      "images/Random/random2.png",
+    ],
+    price: 300000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 636550",
+    description:
+    "100% Từ 50 - 115 Tướng ("
+        " có tỉ lệ nổ acc có skin ss, sss lên đến 80% )\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\n"
+        "65% Acc Khủng (Trên 300 Skin)\n"
+        "50% Có Skin SSS\n\nTrạng thái : TTT"
+        "CHÚC CÁC BẠN MAY MẮN NHA!!!",
+    image:[
+      "images/Random/random2.png",
+    ],
+    price: 300000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 636551",
+    description:
+    "100% Từ 50 - 115 Tướng ("
+        " có tỉ lệ nổ acc có skin ss, sss lên đến 80% )\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\n"
+        "65% Acc Khủng (Trên 300 Skin)\n"
+        "50% Có Skin SSS\n\nTrạng thái : TTT"
+        "CHÚC CÁC BẠN MAY MẮN NHA!!!",
+    image:[
+      "images/Random/random2.png",
+    ],
+    price: 300000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 636552",
+    description:
+    "100% Từ 50 - 115 Tướng ("
+        " có tỉ lệ nổ acc có skin ss, sss lên đến 80% )\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\n"
+        "65% Acc Khủng (Trên 300 Skin)\n"
+        "50% Có Skin SSS\n\nTrạng thái : TTT"
+        "CHÚC CÁC BẠN MAY MẮN NHA!!!",
+    image:[
+      "images/Random/random2.png",
+    ],
+    price: 300000,
+    category: "Liên Quân Mobile",
+  ),Product(
+    title: "Mã số: 636553",
     description:
     "100% Từ 50 - 115 Tướng ("
         " có tỉ lệ nổ acc có skin ss, sss lên đến 80% )\n"
@@ -368,7 +906,7 @@ final List<Product> random2 = [
     category: "Liên Quân Mobile",
   ),
   Product(
-    title: "Mã số: 543567",
+    title: "Mã số: 636555",
     description:
     "100% Từ 50 - 115 Tướng ("
         " có tỉ lệ nổ acc có skin ss, sss lên đến 80% )\n"
@@ -384,7 +922,23 @@ final List<Product> random2 = [
     category: "Liên Quân Mobile",
   ),
   Product(
-    title: "Mã số: 976585",
+    title: "Mã số: 636556",
+    description:
+    "100% Từ 50 - 115 Tướng ("
+        " có tỉ lệ nổ acc có skin ss, sss lên đến 80% )\n"
+        "- Ngoài Ra Có Thêm:\n"
+        "75% Có Skin Hợp Tác\n"
+        "65% Acc Khủng (Trên 300 Skin)\n"
+        "50% Có Skin SSS\n\nTrạng thái : TTT"
+        "CHÚC CÁC BẠN MAY MẮN NHA!!!",
+    image:[
+      "images/Random/random2.png",
+    ],
+    price: 300000,
+    category: "Liên Quân Mobile",
+  ),
+  Product(
+    title: "Mã số: 636557",
     description:
     "100% Từ 50 - 115 Tướng ("
         " có tỉ lệ nổ acc có skin ss, sss lên đến 80% )\n"

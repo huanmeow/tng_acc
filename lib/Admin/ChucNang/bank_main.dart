@@ -43,160 +43,13 @@ class _BankMainState extends State<BankMain> {
     ),
   ];
 
-  // Hàm hiển thị dialog nạp thẻ
-  void _showRechargeDialog() {
-    final _amountController = TextEditingController();
-    final _telcoProviders = ['Viettel', 'Mobifone', 'Vinaphone'];
-    String _selectedProvider = 'Viettel';
-
-    showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        return StatefulBuilder(
-          builder: (context, setState) {
-            return AlertDialog(
-              title: Text('Nạp Thẻ Điện Thoại'),
-              content: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  DropdownButtonFormField<String>(
-                    value: _selectedProvider,
-                    decoration: InputDecoration(
-                      labelText: 'Nhà Mạng',
-                      border: OutlineInputBorder(),
-                    ),
-                    items: _telcoProviders.map((provider) {
-                      return DropdownMenuItem(
-                        value: provider,
-                        child: Text(provider),
-                      );
-                    }).toList(),
-                    onChanged: (value) {
-                      setState(() {
-                        _selectedProvider = value!;
-                      });
-                    },
-                  ),
-                  SizedBox(height: 10),
-                  TextField(
-                    controller: _amountController,
-                    keyboardType: TextInputType.number,
-                    decoration: InputDecoration(
-                      labelText: 'Số Tiền Nạp',
-                      border: OutlineInputBorder(),
-                      suffixText: 'VND',
-                    ),
-                  ),
-                ],
-              ),
-              actions: [
-                TextButton(
-                  onPressed: () => Navigator.of(context).pop(),
-                  child: Text('Hủy'),
-                ),
-                ElevatedButton(
-                  onPressed: () {
-                    final amount = int.tryParse(_amountController.text);
-                    if (amount != null) {
-                      setState(() {
-                        _cardRecharges.add(CardRecharge(
-                          id: (_cardRecharges.length + 1).toString(),
-                          telcoProvider: _selectedProvider,
-                          amount: amount,
-                          status: 'Thành Công',
-                          date: DateTime.now(),
-                        ));
-                      });
-                      Navigator.of(context).pop();
-                    }
-                  },
-                  child: Text('Nạp Thẻ'),
-                ),
-              ],
-            );
-          },
-        );
-      },
-    );
-  }
-
-  // Hàm hiển thị dialog chuyển khoản
-  void _showTransferDialog() {
-    final _recipientController = TextEditingController();
-    final _bankController = TextEditingController();
-    final _amountController = TextEditingController();
-
-    showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        return AlertDialog(
-          title: Text('Chuyển Khoản'),
-          content: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              TextField(
-                controller: _recipientController,
-                decoration: InputDecoration(
-                  labelText: 'Tên Người Nhận',
-                  border: OutlineInputBorder(),
-                ),
-              ),
-              SizedBox(height: 10),
-              TextField(
-                controller: _bankController,
-                decoration: InputDecoration(
-                  labelText: 'Ngân Hàng',
-                  border: OutlineInputBorder(),
-                ),
-              ),
-              SizedBox(height: 10),
-              TextField(
-                controller: _amountController,
-                keyboardType: TextInputType.number,
-                decoration: InputDecoration(
-                  labelText: 'Số Tiền Chuyển',
-                  border: OutlineInputBorder(),
-                  suffixText: 'VND',
-                ),
-              ),
-            ],
-          ),
-          actions: [
-            TextButton(
-              onPressed: () => Navigator.of(context).pop(),
-              child: Text('Hủy'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                final amount = int.tryParse(_amountController.text);
-                if (amount != null) {
-                  setState(() {
-                    _moneyTransfers.add(MoneyTransfer(
-                      id: (_moneyTransfers.length + 1).toString(),
-                      recipientName: _recipientController.text,
-                      bankName: _bankController.text,
-                      amount: amount,
-                      status: 'Thành Công',
-                      date: DateTime.now(),
-                    ));
-                  });
-                  Navigator.of(context).pop();
-                }
-              },
-              child: Text('Chuyển Khoản'),
-            ),
-          ],
-        );
-      },
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 2,
       child: Scaffold(
         appBar: AppBar(
+          automaticallyImplyLeading: false,
           title: Text('Quản Lý Ngân Hàng'),
           bottom: TabBar(
             tabs: [
@@ -210,14 +63,6 @@ class _BankMainState extends State<BankMain> {
             // Trang Nạp Thẻ
             Column(
               children: [
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: ElevatedButton.icon(
-                    onPressed: _showRechargeDialog,
-                    icon: Icon(Icons.add_circle),
-                    label: Text('Nạp Thẻ Mới'),
-                  ),
-                ),
                 Expanded(
                   child: ListView.builder(
                     itemCount: _cardRecharges.length,
@@ -254,18 +99,8 @@ class _BankMainState extends State<BankMain> {
                 ),
               ],
             ),
-
-            // Trang Chuyển Khoản
             Column(
               children: [
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: ElevatedButton.icon(
-                    onPressed: _showTransferDialog,
-                    icon: Icon(Icons.add_circle),
-                    label: Text('Chuyển Khoản Mới'),
-                  ),
-                ),
                 Expanded(
                   child: ListView.builder(
                     itemCount: _moneyTransfers.length,

@@ -1,18 +1,12 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import '../Drawer/chinhsach.dart';
-import '../services/database_service.dart';
-import '../Drawer/home_screen.dart';
 import 'admin_scr.dart';
-
 class LoginAdmin extends StatefulWidget {
   const LoginAdmin({super.key});
-
   @override
   _LoginAdminState createState() => _LoginAdminState();
 }
-
 class _LoginAdminState extends State<LoginAdmin> {
   final _formKey = GlobalKey<FormState>();
   final _emailController = TextEditingController();
@@ -95,14 +89,6 @@ class _LoginAdminState extends State<LoginAdmin> {
                       ? const CircularProgressIndicator()
                       : const Text('Đăng nhập'),
                 ),
-                // TextButton(
-                //   onPressed: () {
-                //     Navigator.push(context,
-                //         MaterialPageRoute(
-                //             builder: (context)=>RegisterScreen()));
-                //   },
-                //   child: const Text('Chưa có tài khoản? Đăng kí ngay'),
-                // ),
                 SizedBox(height: 13,),
                 RichText(
                   text: TextSpan(

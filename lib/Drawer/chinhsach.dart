@@ -12,6 +12,7 @@ class _ChinhsachbaomatState extends State<Chinhsachbaomat> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: Text(""),
       ),
       body: const Padding(

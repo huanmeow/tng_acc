@@ -15,13 +15,14 @@ class _AdminMainState extends State<AdminMain> {
   List<Map<String, dynamic>> _accounts = [
 
   ];
-
   int? _selectedAccountId;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: Text('Quản Lý Tài Khoản Game'),
       ),
       body: Column(

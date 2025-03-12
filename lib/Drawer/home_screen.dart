@@ -26,9 +26,11 @@ class _HomeScreenState extends State<HomeScreen> {
     ];
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: Center(
             child: const Text('Trang chủ',
-        style: TextStyle(fontWeight: FontWeight.bold),)),),
+        style: TextStyle(fontWeight: FontWeight.bold),)),
+      ),
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Padding(

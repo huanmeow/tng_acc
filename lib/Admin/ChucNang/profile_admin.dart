@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shopmeo/Account/login_screen.dart';
 
 import '../image_admin.dart';
 
@@ -10,6 +11,7 @@ class ProfileAdmin extends StatefulWidget {
 }
 
 class _ProfileAdminState extends State<ProfileAdmin> {
+  bool isLoading = false;
 
   @override
   Widget build(BuildContext context) {
@@ -55,12 +57,16 @@ class _ProfileAdminState extends State<ProfileAdmin> {
         SizedBox(height: 10),
         ElevatedButton(
           onPressed: () {
+            setState(() {
+              isLoading=true;
+            });
+            Navigator.push(context, MaterialPageRoute(builder: (_)=>LoginScreen()));
             // Xử lý khi nhấn nút này
             ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(content: Text('Đã nhấn nút')),
+              SnackBar(content: Text('Đã đăng xuất')),
             );
           },
-          child: Text('Cài Đặt Thông Báo'),
+          child: Text('Đăng xuất'),
         ),
       ],
     );

@@ -11,22 +11,22 @@ class Category {
 final List<Category> categoriesList = [
   Category(
     title: "Hot",
-    image: "images/category/cate1.png",
-  ),
-  Category(
-    title: "Tự Chọn",
-    image: "images/category/cate2.png",
+    image: "images/category/fe3.jpg",
   ),
   Category(
     title: "Acc Reg",
-    image: "images/category/cate3.png",
+    image: "images/category/fr0.jpg",
+  ),
+  Category(
+    title: "Random \nVIP 1",
+    image: "images/category/fr1.jpg",
   ),
   Category(
     title: "Random \nSơ Cấp",
-    image: "images/category/cate4.png",
+    image: "images/category/fr2.jpg",
   ),
   Category(
     title: "Random \nSiêu Cấp",
-    image: "images/category/cate5.png",
+    image: "images/category/fr4.jpg",
   ),
 ];

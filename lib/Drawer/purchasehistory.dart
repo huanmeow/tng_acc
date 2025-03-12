@@ -26,36 +26,15 @@ class PurchaseHistoryScreen extends StatefulWidget {
 class _PurchaseHistoryScreenState extends State<PurchaseHistoryScreen> {
   // Dummy Data (Replace with your actual data fetching logic)
   List<PurchaseItem> purchaseHistory = [
-    PurchaseItem(
-      id: '1',
-      productName: 'Product A',
-      price: 100000,
-      purchaseDate: DateTime.now().subtract(const Duration(days: 1)),
-    ),
-    PurchaseItem(
-      id: '2',
-      productName: 'Product B',
-      price: 200000,
-      purchaseDate: DateTime.now().subtract(const Duration(days: 3)),
-    ),
-    PurchaseItem(
-      id: '3',
-      productName: 'Product C',
-      price: 150000,
-      purchaseDate: DateTime.now().subtract(const Duration(days: 7)),
-    ),
-    PurchaseItem(
-      id: '4',
-      productName: 'Product D',
-      price: 300000,
-      purchaseDate: DateTime.now().subtract(const Duration(days: 10)),
-    ),
+
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: const Text('Lịch sử mua hàng'),
       ),
       body: ListView.builder(

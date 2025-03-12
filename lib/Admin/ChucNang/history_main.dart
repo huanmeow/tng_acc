@@ -38,8 +38,6 @@ class _HistoryMainState extends State<HistoryMain> {
       buyerName: 'Lê Văn C',
     ),
   ];
-
-  // Hàm hiển thị chi tiết lịch sử mua
   void _showPurchaseDetailsDialog(GameAccountPurchase purchase) {
     showDialog(
       context: context,
@@ -94,6 +92,7 @@ class _HistoryMainState extends State<HistoryMain> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: Text('Lịch Sử Mua Nick Game'),
         actions: [
           IconButton(
